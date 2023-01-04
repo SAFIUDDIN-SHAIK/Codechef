@@ -1,0 +1,7 @@
+# cook your dish here
+for _ in range(int(input())):
+    a,b,c = map(int,input().split())
+    for i in range(2,101):
+        if a % i and b % i and c % i:
+            print(i)
+            break
